@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>國際智慧商務系 - 嶺東科技大學</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+<div class="container">
+    
+    <!-- 導覽列 (選用，模擬公版頁首) -->
+    <header>
+        <div class="logo">LTU 國際智慧商務系</div>
+        <div class="nav-links">
+            <a href="#">首頁</a>
+            <a href="#">系所簡介</a>
+            <a href="#">師資陣容</a>
+            <a href="#">課程規劃</a>
+            <a href="#">招生資訊</a>
+        </div>
+    </header>
+
+    <!-- 1. 最上面：slider輪播 -->
+    <section class="main-slider">
+        <img src="images/slider.jpg" alt="國際智慧商務系 迎向未來">
+        <div class="slider-caption">
+            <h2>擁抱AI，放眼國際</h2>
+            <p>全新啟航！培育新世代智慧商務菁英</p>
+        </div>
+        <!-- 模擬輪播控制項 -->
+        <div class="slider-controls">
+            <i class="fas fa-chevron-left control-arrow"></i>
+            <i class="fas fa-chevron-right control-arrow"></i>
+        </div>
+        <div class="slider-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </section>
+
+    <!-- 2. 四宮格版面 (左上輪播、右上最新消息、左下師生榮耀、右下國際交流) -->
+    <section class="grid-section">
+        
+        <!-- 左上：活動剪影 (模擬輪播模組) -->
+        <div class="grid-box mini-slider image-card">
+            <div class="box-header">
+                <span><i class="fas fa-camera-retro"></i> 活動剪影</span>
+            </div>
+            <div class="box-content">
+                <img src="images/event.jpg" alt="活動剪影輪播">
+                <div class="mini-slider-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- 右上：最新消息 (影像) -->
+        <div class="grid-box image-card">
+            <div class="box-header">
+                <span><i class="fas fa-bullhorn"></i> 最新消息</span>
+            </div>
+            <div class="box-content">
+                <img src="images/news.jpg" alt="最新消息">
+                <div class="card-text">
+                    【專題講座】迎向生成式AI的商業轉型與永續發展論壇
+                </div>
+            </div>
+        </div>
+
+        <!-- 左下：師生榮耀 (影像) -->
+        <div class="grid-box image-card">
+            <div class="box-header">
+                <span><i class="fas fa-award"></i> 師生榮耀</span>
+            </div>
+            <div class="box-content">
+                <img src="images/honors.jpg" alt="師生榮耀">
+                <div class="card-text">
+                    狂賀！本系同學參與全國大專盃創業競賽榮獲「特優」殊榮
+                </div>
+            </div>
+        </div>
+
+        <!-- 右下：國際交流 (影像) -->
+        <div class="grid-box image-card">
+            <div class="box-header">
+                <span><i class="fas fa-globe-asia"></i> 國際交流</span>
+            </div>
+            <div class="box-content">
+                <img src="images/intl.jpg" alt="國際交流">
+                <div class="card-text">
+                    與海外姊妹校締結雙聯學位，開拓學生跨國視野與國際移動力
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- 3. 最新消息列表 (完整列表區塊，依據指示保留此結構) -->
+    <section class="general-news">
+        <h2 class="section-title"><i class="far fa-newspaper"></i> 最新消息列表</h2>
+        <table class="table-news">
+            <thead>
+                <tr>
+                    <th width="15%">發布日期</th>
+                    <th width="15%">分類</th>
+                    <th width="70%">標題</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2024-10-05</td>
+                    <td>招生資訊</td>
+                    <td><a href="#">113學年度「國際智慧商務系」新生入學獎學金申請辦法公告</a></td>
+                </tr>
+                <tr>
+                    <td>2024-10-01</td>
+                    <td>演講活動</td>
+                    <td><a href="#">【大師講座】數位行銷與生成式AI的結合與應用</a></td>
+                </tr>
+                <tr>
+                    <td>2024-09-28</td>
+                    <td>系務公告</td>
+                    <td><a href="#">113學年度第1學期選課注意事項及課程異動公告</a></td>
+                </tr>
+                <tr>
+                    <td>2024-09-20</td>
+                    <td>實習就業</td>
+                    <td><a href="#">2024 知名電商平台企業實習媒合會，歡迎大三同學踴躍報名</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- 4. 最下面放影片 (可以放 HTML code 的區塊) -->
+    <section class="video-section">
+        <h2 class="section-title"><i class="fab fa-youtube"></i> 系所形象影片</h2>
+        <!-- 將來可在後台貼上 YouTube iframe 語法 -->
+        <div class="video-container">
+            <div class="placeholder-video">
+                [ 影片嵌入區塊 (HTML Code) ]<br>
+                將來可於後台直接貼上 YouTube 嵌入碼
+            </div>
+            <!-- 範例：
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            -->
+        </div>
+    </section>
+
+</div>
+
+</body>
+</html>
